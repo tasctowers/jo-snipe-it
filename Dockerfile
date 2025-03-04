@@ -4,6 +4,7 @@ LABEL maintainer="Brady Wetherington <bwetherington@grokability.com>"
 # No need to add `apt-get clean` here, reference:
 # - https://github.com/snipe/snipe-it/pull/9201
 # - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#apt-get
+#
 
 RUN export DEBIAN_FRONTEND=noninteractive; \
     export DEBCONF_NONINTERACTIVE_SEEN=true; \
